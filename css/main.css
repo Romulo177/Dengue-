@@ -1,0 +1,106 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body{
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: #625c9f;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+    transition: 1;
+    display: none;
+    color: aliceblue;
+    border-bottom: solid 2px aliceblue;
+    font-size: 18px;
+
+}
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.nav a:hover{
+    color: aliceblue;
+    text-decoration:underline;
+
+}
+.cabecalho{
+    background-color: #625c9f;
+    border-bottom: solid 2px #625c9f;
+    padding: 1em;
+    padding-top: 5 em;
+}
+.titulo-navbar{
+    color: white;
+    padding-top: 0.3em;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 48px;
+    padding-top: 2em;
+}
+.imagens{
+    align-items: center;
+    padding: 1em;
+    text-align:  center;
+
+}
+.legenda{
+    font-family: 'Open Sans';
+    padding-top: 0.3em;
+    font-size: 38px;
+    color: #000000;
+    text-decoration: none;
+}
+.legenda:hover{
+    font-family: 'Open Sans';
+    padding-top: 0.3em;
+    font-size: 38px;
+    color: #000000;
+    text-decoration: underline;
+}
+footer{
+    padding: 1em;
+    background-color: #625c9f;
+    height: 300px;
+    
+}
+.imagem{
+    right: 0px;
+    text-align: end;
+}
+.Referências{
+    background-color: #625c9f;
+    padding: 3%;
+}
+.Referências p{
+    display: inline-block;
+    color: aliceblue;
+    margin: 3%;
+    font-size: 48px;
+}
+.Referências a{
+    display: inline-block;
+    color: aliceblue;
+    margin-top: 3%;
+    font-size: 22px;
+    text-decoration: none;
+}
+.Referências a:hover{
+    display: inline-block;
+    color: aliceblue;
+    margin-top: 3%;
+    font-size: 22px;
+    text-decoration: underline;
+}
+b{
+    font-weight: bold;
+}
