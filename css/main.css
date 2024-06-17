@@ -104,3 +104,23 @@ footer{
 b{
     font-weight: bold;
 }
+@media screen and (min-width: 1440px) {
+    .nav{
+        position: fixed;
+        width: 100%;
+        background-color: #625c9f;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 1em;
+        transition: 1;
+        display: none;
+        color: aliceblue;
+        border-bottom: solid 2px aliceblue;
+        font-size: 32px;
+    
+    }
+}
