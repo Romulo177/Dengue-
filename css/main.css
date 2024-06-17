@@ -25,7 +25,8 @@ body{
 .nav a{
     color: aliceblue;
     text-decoration: none;
-    font-size: 32 px;
+    font-size: 32px;
+
 
 }
 .nav a:hover{
@@ -116,12 +117,18 @@ b{
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        padding: 1.5 em;
+        padding: 1em;
         transition: 1;
         display: none;
         color: aliceblue;
-        border-bottom: solid 2 px aliceblue;
-        font-size: 32 px;
+        border-bottom: solid 2px aliceblue;
+        font-size: 18 px;
+    
+    }
+    .nav a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 32px;
     
     }
 }
