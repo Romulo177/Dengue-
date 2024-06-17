@@ -115,12 +115,12 @@ b{
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        padding: 1em;
+        padding: 1.5 em;
         transition: 1;
         display: none;
         color: aliceblue;
-        border-bottom: solid 2px aliceblue;
-        font-size: 32px;
+        border-bottom: solid 2 px aliceblue;
+        font-size: 32 px;
     
     }
 }
